@@ -1,0 +1,54 @@
+.messenger {
+  background-color: rgba(32, 32, 32, 0.9);
+  width: 440px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: auto;
+}
+
+.messenger-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.messenger-name-input {
+  width: 175px;
+  border-radius: 10px;
+  margin: 6px 0;
+  font-size: 18px;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+.messenger-name-input:focus {
+  outline: none;
+}
+
+.messenger-textarea {
+  font-size: 18px;
+  border-radius: 10px;
+  height: 100px;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: whitesmoke;
+}
+
+.messenger-textarea:focus {
+  outline: none;
+}
+
+.messenger-send-button {
+  margin: 5px 0;
+  padding: 15px 0;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(0, 255, 0, 1);
+  font-size: 18px;
+  user-select: none;
+}
+
+.messenger-send-button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 255, 0, 0.95);
+}

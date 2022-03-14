@@ -1,0 +1,26 @@
+.contact-page {
+  height: 100vh;
+  text-align: center;
+  font-family: "Pt Serif";
+  width: 80%;
+  padding: 0 2em;
+  margin: auto;
+}
+
+.contact-page-title {
+  font-family: poppins;
+  font-size: 48px;
+  user-select: none;
+}
+.contact-page-description {
+  font-size: 24px;
+  user-select: none;
+}
+
+.copyright-message {
+  position: absolute;
+  top: 299vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}

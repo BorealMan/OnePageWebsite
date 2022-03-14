@@ -1,0 +1,42 @@
+.info-board {
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 500px;
+  min-height: 400px;
+  background-color: #ebebeb;
+  border-radius: 20px;
+}
+
+.info-board:hover {
+  background-color: rgba(240, 240, 240);
+}
+
+.info-board-button {
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+  height: fit-content;
+  margin: auto 0;
+  user-select: none;
+  background-color: inherit;
+}
+
+.info-board-button:hover {
+  color: rgba(240, 240, 240);
+  background-color: rgba(32, 32, 32, 0.6);
+  border-radius: 20px;
+}
+
+.info-board-content {
+  width: 60%;
+  padding: 20px;
+}
+
+.info-board-title {
+  text-align: center;
+}
+
+.info-board-data-member {
+  margin-bottom: 2em;
+}

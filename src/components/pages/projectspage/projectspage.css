@@ -1,0 +1,16 @@
+.projects-page {
+  height: 100vh;
+  background-color: inherit;
+  width: 80%;
+  padding: 0 2em;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.project-board-project-container {
+  background-color: rgba(32, 32, 3);
+  height: 624px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
