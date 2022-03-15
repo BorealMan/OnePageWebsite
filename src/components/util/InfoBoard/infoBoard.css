@@ -2,10 +2,17 @@
   padding: 0px;
   display: flex;
   justify-content: space-between;
-  min-width: 500px;
-  min-height: 400px;
+  min-width: 33rem;
+  min-height: 25rem;
   background-color: #ebebeb;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .info-board {
+    min-width: 22rem;
+    max-width: 100%;
+  }
 }
 
 .info-board:hover {

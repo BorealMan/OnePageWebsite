@@ -4,7 +4,7 @@
   width: 80%;
   height: 100vh;
   margin: auto;
-  padding: 0 2em;
+
   background-color: inherit;
 }
 
@@ -14,7 +14,10 @@
   }
 }
 
-@media screen and (min-width: 1430px) {
+@media screen and (min-width: 1440px) {
+  .homepage-content {
+    padding: 0 2em;
+  }
   .introduction {
     max-width: 650px;
   }
@@ -26,7 +29,10 @@
   }
 }
 
-@media screen and (max-width: 1430px) {
+@media screen and (max-width: 1440px) {
+  .homepage-content {
+    padding: 0;
+  }
   .homepage-content {
     flex-direction: column;
     height: fit-content;
@@ -39,6 +45,12 @@
   }
   .homepage-content-right {
     margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .logo {
+    display: none;
   }
 }
 
@@ -82,7 +94,7 @@
   padding: 20px;
   border: none;
   width: 180px;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
   margin-right: 20px;
 }
 
@@ -94,7 +106,8 @@
   padding: 20px;
   border: none;
   width: 180px;
-  margin-right: 20px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .button-grid-button-internal:hover {

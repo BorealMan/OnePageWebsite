@@ -16,11 +16,3 @@
   font-size: 24px;
   user-select: none;
 }
-
-.copyright-message {
-  position: absolute;
-  top: 299vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  user-select: none;
-}

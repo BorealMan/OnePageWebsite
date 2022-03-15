@@ -1,10 +1,22 @@
 .messenger {
   background-color: rgba(32, 32, 32, 0.9);
-  width: 440px;
+  /* width: 440px; */
   height: 300px;
   border-radius: 20px;
   padding: 10px;
   margin: auto;
+}
+
+@media screen and (min-width: 640px) {
+  .messenger {
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .messenger {
+    width: 300px;
+  }
 }
 
 .messenger-form {

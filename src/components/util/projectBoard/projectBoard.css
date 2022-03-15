@@ -1,9 +1,9 @@
 .project-board {
   background-color: rgba(32, 32, 3);
   height: 624px;
-  margin-bottom: 50px;
-  border-radius: 20px;
-  padding: 20px;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
   display: flex;
   overflow-x: auto;
 }
